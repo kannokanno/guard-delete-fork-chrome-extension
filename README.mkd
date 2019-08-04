@@ -1,0 +1,1 @@
+うっかりDelete forkボタンを押すのを防ぐためのChrome extension

@@ -1,0 +1,12 @@
+{
+  "name": "Guard delete fork chroke extension",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Disable delete fork button on github",
+  "content_scripts": [{
+    "matches": ["https://github.com/*/pull/*"],
+    "js": [
+      "main.js"
+    ]
+  }]
+}
