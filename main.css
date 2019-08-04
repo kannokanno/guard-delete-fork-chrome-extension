@@ -1,0 +1,3 @@
+#partial-pull-merging > .branch-action-state-closed-dirty {
+  display: none;
+}
