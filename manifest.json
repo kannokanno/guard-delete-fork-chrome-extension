@@ -1,10 +1,10 @@
 {
-  "name": "Guard delete fork chroke extension",
+  "name": "Guard delete fork chrome extension",
   "version": "1.0.0",
   "manifest_version": 2,
-  "description": "Disable delete fork button on github",
+  "description": "Github上のDelete forkボタンを非表示にします。Display none `Delete fork` button on github",
   "content_scripts": [{
-    "matches": ["https://github.com/*/pull/*"],
+    "matches": ["https://github.com/*"],
     "css": ["main.css"]
   }]
 }
